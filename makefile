@@ -24,7 +24,7 @@ PATHT =
 PATHB = build/
 
 #Files We Are To Work With
-SRC = code.c unity.c
+SRC = exercise.c unity.c
 OBJ = $(patsubst %.c,$(PATHB)%.o,$(SRC))
 DEP = $(PATHU)unity.h $(PATHU)unity_internals.h
 TGT = $(PATHB)test$(TARGET_EXTENSION)
